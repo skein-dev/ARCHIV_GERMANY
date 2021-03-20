@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+	    <head>
+        <meta charset="UTF-8">       
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    
+        <title>epiKshare Help - E2ee/Administration</title>
+        
+        
+<link rel="stylesheet" href="../res/bootstrap.min.css">
+
+        
+<link rel="stylesheet" href="../res/prism.css">
+
+        
+<link rel="stylesheet" href="../res/skin.css">
+
+        
+<link rel="stylesheet" href="../res/help.css">
+
+
+        
+<script src="../res/jquery-3.3.1.min.js"></script>
+
+        
+<script src="../res/popper.min.js"></script>
+
+
+        
+<script src="../res/bootstrap.min.js"></script>
+
+        
+<script src="../res/prism.js"></script>
+
+    <meta name="generator" content="Hexo 5.1.1"></head>
+
+
+	<body>
+		<div id="header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<a target="_blank" rel="noopener" href="http://www.epikshare.com" class="logo">epiKshare</a>
+			</div>
+		</div>
+	</div>
+</div>
+ 
+<div id="body" class="container-flex" >
+
+<div class="row">
+	<div class="col-md-3">
+		<div id="sidenav">
+
+			<ul class="nav flex-column">
+				
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Authentication-Methods.html" title="">Outlook Add-In/Authentication Methods</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Client-installation-on-Mac-OS.html" title="">Client Mac OS</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E-Mails-are-not-sent.html" title="">FAQ/Emails  not sent</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Encrypted-Sharing-of-Files.html" title="">E2ee/Encrypted Sharing of files</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Guest-User-Manual.html" title="">E2ee/Guest User Manual</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Release-Notes.html" title="">E2ee/Release Notes</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Installation.html" title="">E2ee/Installation</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Security-Tips.html" title="">E2ee/Security Tips</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Share-End-to-End-encrypted-files-via-Microsoft-Outlook-Add-In.html" title="">E2ee/Share With Outlook</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---User-Manual.html" title="">E2ee/User Manual</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2ee-Enteprise-Tools---Client.html" title="">E2ee/Enterprise Tools</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/End-to-End-Encryption-File-Sharing-App-for-ownCloud---E2EE.html" title="">E2ee</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Error-creating-the-share-folder.html" title="">FAQ/Createing Share Folder</a></li>
+			
+				<li class="nav-item  active " ><a class="nav-link" href="../en/E2EE---Administration.html" title="">E2ee/Administration</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Download-Files.html" title="">Outlook Add-In/Download Files</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---E2ee-Configuration.html" title="">Outlook Add-In/E2ee Configuration</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Installation.html" title="">Outlook Add-In/Instlalation</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Mail-Templates.html" title="">Outlook Add-In/Mail Templates</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---My-Outlook-Shares.html" title="">Outlook Add-In/My Shares</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Release-Notes.html" title="">Outlook Add-In/Release Notes</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Setup-Configuration.html" title="">Outlook Add-In/Setup Configuration</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Share-Files.html" title="">Outlook Add-In/Share Files</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-add-in-startet-bei-Neustart-nicht.html" title="">Outlook Add-In/FAQ-Outlook Startet Nicht</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-crash-by-sending-share.html" title="">Outlook Add-InFAQ Crash</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/epiKshare-Documentation.html" title="">epiKshare</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/ownCloud-epiKshare-Outlook-Add-In.html" title="">Outlook Add-In</a></li>
+			
+			</ul>
+</div>
+
+	</div>
+	<div class="col-md-9">
+					<h1>E2ee/Administration </h1>
+					
+		<div class="content">
+				<ul>
+<li><a href="#system-configuration">System Configuration</a><ul>
+<li><a href="#license-installation">License Installation</a></li>
+<li><a href="#key-storage-options">Key Storage Options</a></li>
+<li><a href="#access-restrictions">Access Restrictions</a></li>
+<li><a href="#enforce-end-to-end-encryption">Enforce End-To-End-Encryption</a></li>
+<li><a href="#multiple-keys">Multiple Keys</a></li>
+<li><a href="#simple-share">Simple Share</a></li>
+<li><a href="#status-report">Status Report</a></li>
+<li><a href="#administrative-note">Administrative Note</a></li>
+<li><a href="#occ-commands">occ Commands</a></li>
+</ul>
+</li>
+</ul>
+<h1 id="System-Configuration"><a href="#System-Configuration" class="headerlink" title="System Configuration"></a>System Configuration</h1><p>As Admin user you will find the E2EE settings in the  <em>Encryption</em>  section of the Admin Settings.</p>
+<p>[](images/storage/image2018-2-15 10:45:44.png)</p>
+<h2 id="License-Installation"><a href="#License-Installation" class="headerlink" title="License Installation"></a>License Installation</h2><p>Copy/paste your license key and click on  <em>Change License</em>  to install a new one or update it.</p>
+<p>![](images/storage/image2017-6-7 16:3:16.png)</p>
+<p>You will see until when your license is active and for how many users.</p>
+<h2 id="Key-Storage-Options"><a href="#Key-Storage-Options" class="headerlink" title="Key Storage Options"></a>Key Storage Options</h2><p>Select, which key storages will be available for your users. You may provide different settings for ownCloud and guest users.</p>
+<p><img src="images/storage/Selection_680.png"></p>
+<p>If you provide more than one key storage options, users must set up their key storage in their personal settings prior to being able to read and save encrypted files. This must be communicated in advance to avoid any confusion.</p>
+<p>The handling of the private key is - from a security perspective - the most important part. The private key must be kept safe but still be used when you want to decrypt data.</p>
+<p>There is a clear trade-off between security and usability, depending on which option you want:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Description</th>
+<th>Usability</th>
+<th>Security</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>User’s Computer/Device</td>
+<td>The private key is stored in the browser local storage (similar to a cookie)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>External Key/Smartcard</td>
+<td>The private key is available through an external process running on the client machine. Then the browser can only request decryption. You have to install an extra Key Server on your machine, which is able to both recognize provided key files or Smart Cards (currently Windows only). The key is never saved in the browser.The Key Server supports reading the key from a storage location (.pem file) or from a pkcs#11 compatible hardware device.</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<p> |  |  |<br>| Manual Input for each download | When downloading an E2EE file, the private key has to be copy/pasted into a browser form. The key is never saved in the browser. |  |  |<br>| Local decryption, download only | The E2EE file is downloaded locally and a secondary tool is required to decrypt (E2EE Reader).  The E2EE Reader supports both file and Smart Card decryption (currently Windows only). The key is never saved in the browser. | / |  |</p>
+<p>General remarks about security:</p>
+<ul>
+<li>Even with access to a server backup no data can be decrypted (you need a private key)</li>
+<li>Access to a private key only allows to decrypt that users data</li>
+<li>When a private key is removed, all decryptable information is purged from the server (i.e. even if recovered, it cannot be used to decrypt data any more)</li>
+</ul>
+<h2 id="Access-Restrictions"><a href="#Access-Restrictions" class="headerlink" title="Access Restrictions"></a>Access Restrictions</h2><p>By default all users are enabled to use the E2ee app. If you want to restrict usage to specific groups only, you may set them in the  <em>Authorized Groups</em>  section. If you provide one or more groups here, only members of those groups may set a folder as E2ee encrypted. Click the apply button, when you are done.</p>
+<p>![](images/storage/image2018-2-15 10:18:31.png)</p>
+<p>The authorized groups will be applied when a user logs in for the first time.</p>
+<p>To see exactly how many users are enabled to use the E2EE app, you may click the  <em>Apply E2ee Groups.</em> After a reload the Summary section shows the number of currently enabled users.</p>
+<p><img src="images/storage/e2ee-summary.JPG"></p>
+<h2 id="Enforce-End-To-End-Encryption"><a href="#Enforce-End-To-End-Encryption" class="headerlink" title="Enforce End-To-End-Encryption"></a>Enforce End-To-End-Encryption</h2><p>You may configure a system wide setting where it is only allowed to upload e2ee files. To enable, set the e2eeshare key enforced_e2ee to true in your config.php. When you want to exclude some groups from this behavior, add them comma separated as value for enforced_excluded_groups.</p>
+<p>A configuration snippet with e2ee enforced and the groups admin and helpdesk excepted looks like below</p>
+<pre class="line-numbers language-php" data-language="php"><code class="language-php">&#39;e2eeshare&#39; &#x3D;&gt;
+  array (
+    &#39;enforced_e2ee&#39; &#x3D;&gt; true,
+    &#39;enforced_excluded_groups&#39; &#x3D;&gt; &#39;admin,helpdesk&#39;
+  ),</code></pre>
+
+<h2 id="Multiple-Keys"><a href="#Multiple-Keys" class="headerlink" title="Multiple Keys"></a>Multiple Keys</h2><p>![](images/storage/image2017-11-22 10:21:0.png)</p>
+<p>Users can only have one public key assigned to them by default. This is a security feature. If you want users to have multiple keys (i.e. one for each of their device or for backup purposes) you may enable this option.</p>
+<h2 id="Simple-Share"><a href="#Simple-Share" class="headerlink" title="Simple Share"></a>Simple Share</h2><p>To simplify the end-to-end-encryption workflow, a private key can be created when sharing with a new user. This private key will be stored AES encrypted in the database and new users will receive an email with the password.</p>
+<p>Upon first login new users unlock the initial private key with the password and a new key pair will be created. Shared files are reencrypted with the new key on the fly and the initial private key will be deleted.</p>
+<p>The password itself is only delivered by email and never stored.</p>
+<p>Simple Share requires the  <strong><em>key storage User’s Computer/Device</em></strong>  <strong>enabled</strong>  for both guests and ownCloud users. It cannot be enabled unless both of the storages are enabled.</p>
+<p>Be sure that the share  <strong>recipients have got valid email addresses</strong>  (check the  <em>Users</em>  page) or the email providing the private key password can never be sent. This affects ownCloud users only since for guest users the email address is required for invitation.</p>
+<p>When a user did not receive or lost the password for the initial private key it cannot be resent.  To have the user receive a password again, remove all shares with this user and recreate them. Then a new initial private key will be generated and the new password will be sent to the user.</p>
+<p>To enable this functionality check the button  <em>Enable Simple Share</em> :</p>
+<p>![](images/storage/image2019-7-9 15:15:1.png)</p>
+<h2 id="Status-Report"><a href="#Status-Report" class="headerlink" title="Status Report"></a>Status Report</h2><p>![](images/storage/image2018-2-15 10:59:33.png)</p>
+<p>You can generate a status report of your E2EE installation by clicking the button in the  <em>Summary</em>  section: The report will be mailed to the logged in administrator’s email address. It includes the current license information such as the number of enabled users.</p>
+<h2 id="Administrative-Note"><a href="#Administrative-Note" class="headerlink" title="Administrative Note"></a>Administrative Note</h2><p>This functionality provides an information text area which is shown on top of every users’ E2ee Section in the Personal Settings. You may use this, for instance, for a detailed guide about the setup or contact information.</p>
+<p>When the text area is left blank, nothing will be shown.</p>
+<p><img src="images/storage/Selection_710.png"></p>
+<h2 id="occ-Commands"><a href="#occ-Commands" class="headerlink" title="occ Commands"></a>occ Commands</h2><p>As an administrator you might want to perform certain operations by using scripts. The following commands are available:</p>
+<p>e2eeshare:list-keysShow all public keys for the provided user</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">sudo -u www-data php occ e2eeshare:list-keys &lt;user&gt;</code></pre>
+<p>e2eeshare:add-keyAdd a new public key to provided user</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">sudo -u www-data php occ e2eeshare:add-key &lt;user&gt; &lt;path&gt;</code></pre>
+<p>e2eeshare:delete-keyDelete a public key from provided user</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">sudo -u www-data php occ e2eeshare:delete-key &lt;user&gt; &lt;key id&gt;</code></pre>
+
+
+<hr>
+<p>[[category.storage-team]]<br>[[category.confluence]] </p>
+ 
+		</div>
+	</div>
+</div>
+
+</div>
+				<div id="bottom">	
+	<div class="container">
+		<a target="_blank" rel="noopener" href="http://www.epikshare.com" class="logo">epiKshare</a>
+		<center><p class="muted">Copyright by epiKshare. All rights reserved.</p></center>
+	</div>
+</div>
+<div id="footer">	
+	<div class="container">
+		<a target="_blank" rel="noopener" href="https://www.epikshare.com/contact">Contact</a>
+		<a target="_blank" rel="noopener" href="https://shop.epikshare.com/legal-agb.html">Terms and Conditions</a>
+	</div>
+</div>
+
+
+	</body>
+</html>

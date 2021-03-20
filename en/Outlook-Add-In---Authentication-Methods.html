@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	    <head>
+        <meta charset="UTF-8">       
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    
+        <title>epiKshare Help - Outlook Add-In/Authentication Methods</title>
+        
+        
+<link rel="stylesheet" href="../res/bootstrap.min.css">
+
+        
+<link rel="stylesheet" href="../res/prism.css">
+
+        
+<link rel="stylesheet" href="../res/skin.css">
+
+        
+<link rel="stylesheet" href="../res/help.css">
+
+
+        
+<script src="../res/jquery-3.3.1.min.js"></script>
+
+        
+<script src="../res/popper.min.js"></script>
+
+
+        
+<script src="../res/bootstrap.min.js"></script>
+
+        
+<script src="../res/prism.js"></script>
+
+    <meta name="generator" content="Hexo 5.1.1"></head>
+
+
+	<body>
+		<div id="header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<a target="_blank" rel="noopener" href="http://www.epikshare.com" class="logo">epiKshare</a>
+			</div>
+		</div>
+	</div>
+</div>
+ 
+<div id="body" class="container-flex" >
+
+<div class="row">
+	<div class="col-md-3">
+		<div id="sidenav">
+
+			<ul class="nav flex-column">
+				
+				<li class="nav-item  active " ><a class="nav-link" href="../en/Outlook-Add-In---Authentication-Methods.html" title="">Outlook Add-In/Authentication Methods</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Client-installation-on-Mac-OS.html" title="">Client Mac OS</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E-Mails-are-not-sent.html" title="">FAQ/Emails  not sent</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Encrypted-Sharing-of-Files.html" title="">E2ee/Encrypted Sharing of files</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Guest-User-Manual.html" title="">E2ee/Guest User Manual</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Release-Notes.html" title="">E2ee/Release Notes</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Installation.html" title="">E2ee/Installation</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Security-Tips.html" title="">E2ee/Security Tips</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Share-End-to-End-encrypted-files-via-Microsoft-Outlook-Add-In.html" title="">E2ee/Share With Outlook</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---User-Manual.html" title="">E2ee/User Manual</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2ee-Enteprise-Tools---Client.html" title="">E2ee/Enterprise Tools</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/End-to-End-Encryption-File-Sharing-App-for-ownCloud---E2EE.html" title="">E2ee</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Error-creating-the-share-folder.html" title="">FAQ/Createing Share Folder</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Administration.html" title="">E2ee/Administration</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Download-Files.html" title="">Outlook Add-In/Download Files</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---E2ee-Configuration.html" title="">Outlook Add-In/E2ee Configuration</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Installation.html" title="">Outlook Add-In/Instlalation</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Mail-Templates.html" title="">Outlook Add-In/Mail Templates</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---My-Outlook-Shares.html" title="">Outlook Add-In/My Shares</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Release-Notes.html" title="">Outlook Add-In/Release Notes</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Setup-Configuration.html" title="">Outlook Add-In/Setup Configuration</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Share-Files.html" title="">Outlook Add-In/Share Files</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-add-in-startet-bei-Neustart-nicht.html" title="">Outlook Add-In/FAQ-Outlook Startet Nicht</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-crash-by-sending-share.html" title="">Outlook Add-InFAQ Crash</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/epiKshare-Documentation.html" title="">epiKshare</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/ownCloud-epiKshare-Outlook-Add-In.html" title="">Outlook Add-In</a></li>
+			
+			</ul>
+</div>
+
+	</div>
+	<div class="col-md-9">
+					<h1>Outlook Add-In/Authentication Methods </h1>
+					
+		<div class="content">
+				<h2 id="OAuth2"><a href="#OAuth2" class="headerlink" title="OAuth2"></a>OAuth2</h2><p>This is only available in the  <strong>standard</strong>  version starting with V 3.0</p>
+<h2 id="Server-Setup"><a href="#Server-Setup" class="headerlink" title="Server Setup"></a>Server Setup</h2><h3 id="Apache-Preparation"><a href="#Apache-Preparation" class="headerlink" title="Apache Preparation"></a>Apache Preparation</h3><p>In order for OAuth2 to work correctly make sure to enable the mod_rewrite and mod_headers module in apache. You can use the a2enmod commands (as root)</p>
+<pre class="line-numbers language-none"><code class="language-none">sudo a2enmod rewrite headers
+sudo systemctl apache2 restart</code></pre>
+<p>Without these, the OAuth workflow will still allow login, but you will get a 401 if you access any api.</p>
+<h3 id="OAuth-Setup"><a href="#OAuth-Setup" class="headerlink" title="OAuth Setup"></a>OAuth Setup</h3><p>In order to use SSO you need to enable the OAuth Plugin in ownCloud. This is done using the Marketplace app:</p>
+<p>![](images/storage/image2018-1-24 10:33:14.png)</p>
+<p>Once this is installed, go to the Configuration and select ![](images/storage/image2018-1-24 10:34:49.png)</p>
+<p>There add a new client: ![](images/storage/image2018-1-24 10:35:25.png)</p>
+<p>Make sure to use the url  <strong>oc://localhost</strong>  when adding the client otherwise it will not work!</p>
+<p>After adding, make note of the  <strong>Client ID</strong>  and the  <strong>Client Secret</strong> . These need to be configured in the outlook client (all users use the same id and secret!).</p>
+<h3 id="Outlook-Client-Setup"><a href="#Outlook-Client-Setup" class="headerlink" title="Outlook Client Setup"></a>Outlook Client Setup</h3><p>Test SetupOn a test instance, open the connection dialog and select OAuth. Then add the Client ID and Client Secret into the dialog</p>
+<p>![](images/storage/image2018-1-24 10:49:20.png)</p>
+<p>You can then click connect and test out the connection (A password dialog will pop up and then you will see a window to authorize the client).</p>
+<p>Company RolloutFor a company wide rollout, set the client id and secret in the ini file. This way this will be preconfigured and no more user interaction (except login credentials) are required. You can also set the option to remember the password to avoid any further user interaction</p>
+<h1 id="Windows-SSO-with-Active-Directory"><a href="#Windows-SSO-with-Active-Directory" class="headerlink" title="Windows SSO with Active Directory"></a>Windows SSO with Active Directory</h1><p>This is only available in the  <strong>enterprise</strong>  version starting with V 3.0</p>
+<hr>
+<p>[[category.storage-team]]<br>[[category.confluence]] </p>
+ 
+		</div>
+	</div>
+</div>
+
+</div>
+				<div id="bottom">	
+	<div class="container">
+		<a target="_blank" rel="noopener" href="http://www.epikshare.com" class="logo">epiKshare</a>
+		<center><p class="muted">Copyright by epiKshare. All rights reserved.</p></center>
+	</div>
+</div>
+<div id="footer">	
+	<div class="container">
+		<a target="_blank" rel="noopener" href="https://www.epikshare.com/contact">Contact</a>
+		<a target="_blank" rel="noopener" href="https://shop.epikshare.com/legal-agb.html">Terms and Conditions</a>
+	</div>
+</div>
+
+
+	</body>
+</html>

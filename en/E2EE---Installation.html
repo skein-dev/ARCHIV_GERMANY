@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+	    <head>
+        <meta charset="UTF-8">       
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    
+        <title>epiKshare Help - E2ee/Installation</title>
+        
+        
+<link rel="stylesheet" href="../res/bootstrap.min.css">
+
+        
+<link rel="stylesheet" href="../res/prism.css">
+
+        
+<link rel="stylesheet" href="../res/skin.css">
+
+        
+<link rel="stylesheet" href="../res/help.css">
+
+
+        
+<script src="../res/jquery-3.3.1.min.js"></script>
+
+        
+<script src="../res/popper.min.js"></script>
+
+
+        
+<script src="../res/bootstrap.min.js"></script>
+
+        
+<script src="../res/prism.js"></script>
+
+    <meta name="generator" content="Hexo 5.1.1"></head>
+
+
+	<body>
+		<div id="header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<a target="_blank" rel="noopener" href="http://www.epikshare.com" class="logo">epiKshare</a>
+			</div>
+		</div>
+	</div>
+</div>
+ 
+<div id="body" class="container-flex" >
+
+<div class="row">
+	<div class="col-md-3">
+		<div id="sidenav">
+
+			<ul class="nav flex-column">
+				
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Authentication-Methods.html" title="">Outlook Add-In/Authentication Methods</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Client-installation-on-Mac-OS.html" title="">Client Mac OS</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E-Mails-are-not-sent.html" title="">FAQ/Emails  not sent</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Encrypted-Sharing-of-Files.html" title="">E2ee/Encrypted Sharing of files</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Guest-User-Manual.html" title="">E2ee/Guest User Manual</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Release-Notes.html" title="">E2ee/Release Notes</a></li>
+			
+				<li class="nav-item  active " ><a class="nav-link" href="../en/E2EE---Installation.html" title="">E2ee/Installation</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Security-Tips.html" title="">E2ee/Security Tips</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Share-End-to-End-encrypted-files-via-Microsoft-Outlook-Add-In.html" title="">E2ee/Share With Outlook</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---User-Manual.html" title="">E2ee/User Manual</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2ee-Enteprise-Tools---Client.html" title="">E2ee/Enterprise Tools</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/End-to-End-Encryption-File-Sharing-App-for-ownCloud---E2EE.html" title="">E2ee</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Error-creating-the-share-folder.html" title="">FAQ/Createing Share Folder</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Administration.html" title="">E2ee/Administration</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Download-Files.html" title="">Outlook Add-In/Download Files</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---E2ee-Configuration.html" title="">Outlook Add-In/E2ee Configuration</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Installation.html" title="">Outlook Add-In/Instlalation</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Mail-Templates.html" title="">Outlook Add-In/Mail Templates</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---My-Outlook-Shares.html" title="">Outlook Add-In/My Shares</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Release-Notes.html" title="">Outlook Add-In/Release Notes</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Setup-Configuration.html" title="">Outlook Add-In/Setup Configuration</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Share-Files.html" title="">Outlook Add-In/Share Files</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-add-in-startet-bei-Neustart-nicht.html" title="">Outlook Add-In/FAQ-Outlook Startet Nicht</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-crash-by-sending-share.html" title="">Outlook Add-InFAQ Crash</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/epiKshare-Documentation.html" title="">epiKshare</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/ownCloud-epiKshare-Outlook-Add-In.html" title="">Outlook Add-In</a></li>
+			
+			</ul>
+</div>
+
+	</div>
+	<div class="col-md-9">
+					<h1>E2ee/Installation </h1>
+					
+		<div class="content">
+				<ul>
+<li><a href="#prerequisites">Prerequisites</a><ul>
+<li><a href="#community">Community</a></li>
+<li><a href="#enterprise">Enterprise</a></li>
+</ul>
+</li>
+<li><a href="#installation">Installation</a><ul>
+<li><a href="#demo-license-key">Demo License Key</a></li>
+</ul>
+</li>
+<li><a href="#download">Download</a></li>
+<li><a href="#manual-installation">Manual Installation</a></li>
+<li><a href="#administration-setup">Administration Setup</a></li>
+<li><a href="#faq">FAQ</a><ul>
+<li><a href="#i-got-a-valid-license,-but-when-installing-it,-i-still-get-a-message-that-the-system-is-unlicensed.">I got a valid license, but when installing it, I still get a message that the system is unlicensed.</a></li>
+<li><a href="#are-there-any-file-size-limitations?">Are there any file size limitations?</a></li>
+<li><a href="#how-long-do-you-have-to-wait-to-have-a-file-de-/encrypted?">How long do you have to wait to have a file de-/encrypted?</a></li>
+</ul>
+</li>
+</ul>
+<h1 id="Prerequisites"><a href="#Prerequisites" class="headerlink" title="Prerequisites"></a>Prerequisites</h1><p>You need access to the server running ownCloud in order to install the E2EE app.</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://owncloud.org/install/">ownCloud 10</a> Installation with following optional apps installed:</li>
+</ul>
+<pre><code>*  **Activity** : [https://marketplace.owncloud.com/apps/activity](https://marketplace.owncloud.com/apps/activity) - to be able to view E2EE related events in the activity log
+*  **Guests** : [https://marketplace.owncloud.com/apps/guests](https://marketplace.owncloud.com/apps/guests) &gt;= 0.5 - to be able to share with guests by email address, i.e. users that do not have an account on the ownCloud Server</code></pre>
+<h3 id="Community"><a href="#Community" class="headerlink" title="Community"></a>Community</h3><p>Unfortunately, the market place can install e2ee directly only with an active enterprise license. But you can download the latest version from <a target="_blank" rel="noopener" href="https://marketplace.owncloud.com/apps/e2eeshare">https://marketplace.owncloud.com/apps/e2eeshare</a> and install it manually in apps-external or apps:</p>
+<pre class="line-numbers language-none"><code class="language-none"># Download to ~&#x2F;Downloads, then (as root) do:
+cd &#x2F;var&#x2F;www&#x2F;owncloud&#x2F;apps-external
+tar -xzf ~&#x2F;Downloads&#x2F;e2eeshare-*.tgz</code></pre>
+
+
+
+<h3 id="Enterprise"><a href="#Enterprise" class="headerlink" title="Enterprise"></a>Enterprise</h3><p>To enable/install these go to:</p>
+<p>| ![](images/storage/image2019-5-29 15:10:3.png) | ![](images/storage/image2019-5-29 15:11:34.png)You will find the guest app unter “Collaboration” | ![](images/storage/image2019-5-29 15:12:55.png)And the activity app can be found under “tools” |</p>
+<p>The Trashbin (files_trashbin) and Versioning (files_versions) apps do not work with e2ee files. Unencrypted files are still supported.</p>
+<h1 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h1><p>You can find the newest E2ee release in the market place:</p>
+<p>![](images/storage/image2019-7-16 16:16:39.png)</p>
+<p>If you have problems using the marketplace app, you can also download the version from <a target="_blank" rel="noopener" href="https://marketplace.owncloud.com/apps/e2eeshare">https://marketplace.owncloud.com/apps/e2eeshare</a> and install it manually.</p>
+<h3 id="Demo-License-Key"><a href="#Demo-License-Key" class="headerlink" title="Demo License Key"></a>Demo License Key</h3><p>You can test E2ee using http(s)://localhost or http(s)://localhost/owncloud for up to 10 users. If you need any other domains for testing, please contact <a href="mailto:sales@epikshare.com">sales@epikshare.com</a> with the exact URL you want to test with.</p>
+<pre class="line-numbers language-none"><code class="language-none">-----BEGIN LICENSE-----
+TGljMTtVZDNtcTQxSEx6VlpvaGNVUVhwckN2OTJudytySERMYkVweFJFZ2FtcTZZWUtuS3JBMjVO
+Z0FPaTZucTV4VzQ3Y0tMZzIrZ1QrbGZhZG9nZUZPcldMU2pTTVExV2RTM1RKK0tmb0NjSnNTZHhR
+UzZFQ1NnS0pycnYrOHhhRDNNdFpwWHV3U0EwUmg4TjNsRHN0bzNmbXBhMjg3ZHlsb1ZVTWRxbytl
+cEhaZnhZKy9aRTR0OUtJdE8wRVVabklxM2VGSm1NZDR6cnNBMy9KdzhCY1I5RHAwSFZudDFzQVo4
+SWVBY1FiamR0a3RZUnpuS0R2bVc4RkVQZXJqdmx0VWU5Qmo3elRXSFhXYkxmRFFNR2h0ZGZ3bzYx
+aEprMnFxUWZZV3B2NXkwTGxlQkd4RzI5MDR6VzhSVDhYT2NrZElUQ0JlamJnYWtYcGpUMEZZVDA2
+bFBQRXc9PTtkVDB5TURJMU1EWXpNRHRrUFdoMGRIQnpPaTh2Ykc5allXeG9iM04wSTJoMGRIQTZM
+eTlzYjJOaGJHaHZjM1FqYUhSMGNITTZMeTlzYjJOaGJHaHZjM1F2YjNkdVkyeHZkV1FqYUhSMGNE
+b3ZMMnh2WTJGc2FHOXpkQzl2ZDI1amJHOTFaQ05vZEhSd2N6b3ZMekV5Tnk0d0xqQXVNU05vZEhS
+d09pOHZNVEkzTGpBdU1DNHhPMmc5T0daaFpqTmhPV1ppWVRkbE16TXpPV05tTmpGak1UUTFNREJr
+TURRM09EZzFORGM1WXpKbE5EdGpQVEV3TzJVNztGeFJCZW1zSy8zYWZENnNjTXRzU25GRVNCcVk9
+-----END LICENSE-----</code></pre>
+
+
+
+<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1><p>Download the latest e2eeshare version from <a target="_blank" rel="noopener" href="https://marketplace.owncloud.com/apps/e2eeshare">https://marketplace.owncloud.com/apps/e2eeshare</a></p>
+<p>If you have ownCloud enterprise you can use the marketplace to install the current version of e2ee-share.</p>
+<h1 id="Manual-Installation"><a href="#Manual-Installation" class="headerlink" title="Manual Installation"></a>Manual Installation</h1><ol>
+<li>Find you apps folder within your ownCloud installation (Linux: /var/www/owncloud/apps-external )</li>
+</ol>
+<ol>
+<li>Unzip the e2eeShare package into this folder:</li>
+</ol>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">cd &#x2F;var&#x2F;www&#x2F;owncloud&#x2F;apps-external
+tar -xzf ~&#x2F;Downloads&#x2F;e2eeshare-*.tgz</code></pre>
+
+<ol>
+<li>Verify that the zip is successfully extracted:</li>
+</ol>
+<pre class="line-numbers language-none"><code class="language-none">owncloud
+├── apps-external
+...
+│   ├── e2eeshare
+|   |   ├── ajax
+│   │   ├── appinfo
+│   │   ├── controller
+│   │   ├── css
+│   │   ├── db
+│   │   ├── img
+│   │   ├── js
+│   │   ├── l10n
+│   │   ├── lib
+│   │   └── templates
+...</code></pre>
+
+<ol>
+<li>Login to ownCloud as the admin user. You might be asked for an upgrade, if the E2EE app was installed before.</li>
+</ol>
+<h1 id="Administration-Setup"><a href="#Administration-Setup" class="headerlink" title="Administration Setup"></a>Administration Setup</h1><ol>
+<li><p>Open the Admin Settings and visit the![](images/storage/image2018-2-15 10:19:2.png)section. Enter your license key in the provided text area:</p>
+<p> ![](images/storage/image2017-6-12 12:14:55.png)</p>
+</li>
+</ol>
+<p>For trial purposes e2ee includes a valid license for localhost. If you want to try it out on a real environment you can request a demo license by providing your owncloud url (before the index.php)</p>
+<ol>
+<li><p>Select, which key storages will be available for your users. You may provide different settings for ownCloud and guest users.</p>
+<p> <img src="images/storage/Selection_680.png"></p>
+</li>
+</ol>
+<p>If you provide more than one key storage options, users have to set up their key storage in their personal settings prior to being able to read and save encrypted files. This must be communicated in advance to avoid any confusion.</p>
+<ol>
+<li><p>By default all users are enabled to use the E2ee app. If you want to restrict usage to specific groups only, you may set them in the  <em>Authorized Groups</em>  section. If you provide one or more groups here, only members of those groups may set a folder as E2ee encrypted. Click the apply button, when you are done.</p>
+<p> ![](images/storage/image2018-2-15 10:18:31.png)</p>
+</li>
+</ol>
+<ol>
+<li><p>If you have the Guests app installed, make sure e2eeshare is added to the app whitelist. The Guests app is found in the![](images/storage/image2017-6-12 18:11:19.png)section.</p>
+<p> ![](images/storage/image2018-2-15 10:22:28.png)</p>
+</li>
+</ol>
+<h1 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h1><h3 id="I-got-a-valid-license-but-when-installing-it-I-still-get-a-message-that-the-system-is-unlicensed"><a href="#I-got-a-valid-license-but-when-installing-it-I-still-get-a-message-that-the-system-is-unlicensed" class="headerlink" title="I got a valid license, but when installing it, I still get a message that the system is unlicensed."></a>I got a valid license, but when installing it, I still get a message that the system is unlicensed.</h3><p>This usually happens, when you did not specify correct URL(s) for your license keys. Make sure to send us the exact URL(s) the system will be visible from (i.e. <a target="_blank" rel="noopener" href="https://example.com/owncloud">https://example.com/owncloud</a>) -&gt; basically everything before  <em>index.php</em> . If you plan to use different URLs for the same installation make sure to send us all of them.</p>
+<h3 id="Are-there-any-file-size-limitations"><a href="#Are-there-any-file-size-limitations" class="headerlink" title="Are there any file size limitations?"></a>Are there any file size limitations?</h3><p>Short Answer: no</p>
+<p>Long Answer: It depends on your browser, operating system and available RAM. Since the en-/decryption takes place in your browser the file needs to fit within the available memory. Depending on you configuration it should not be a problem sharing files &gt; 2GB although the additional en-/decryption process might require you to wait for quire some time.</p>
+<h3 id="How-long-do-you-have-to-wait-to-have-a-file-de-encrypted"><a href="#How-long-do-you-have-to-wait-to-have-a-file-de-encrypted" class="headerlink" title="How long do you have to wait to have a file de-/encrypted?"></a>How long do you have to wait to have a file de-/encrypted?</h3><p>De-/Encryption times for small files (&lt;20MB) are barely noticeable on modern systems or even mobile devices. The larger the file gets the more noticeable is the wait after downloading (or before upload starts) - always depending on your hardware.</p>
+<hr>
+<p>[[category.storage-team]]<br>[[category.confluence]] </p>
+ 
+		</div>
+	</div>
+</div>
+
+</div>
+				<div id="bottom">	
+	<div class="container">
+		<a target="_blank" rel="noopener" href="http://www.epikshare.com" class="logo">epiKshare</a>
+		<center><p class="muted">Copyright by epiKshare. All rights reserved.</p></center>
+	</div>
+</div>
+<div id="footer">	
+	<div class="container">
+		<a target="_blank" rel="noopener" href="https://www.epikshare.com/contact">Contact</a>
+		<a target="_blank" rel="noopener" href="https://shop.epikshare.com/legal-agb.html">Terms and Conditions</a>
+	</div>
+</div>
+
+
+	</body>
+</html>

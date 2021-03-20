@@ -1,0 +1,233 @@
+.tt_header-menu{
+    margin-left:5% !important;
+    margin-top: 20px;
+}
+.top-logo-grid{
+    display: flex;
+    flex-direction: row;
+}
+.th_your-account{
+	margin: 0px 23px 0 0px;
+}
+.search-section{
+	width: 20%!important;
+    position: absolute;
+    right: 525px;
+}
+.love-section{
+    width: 20px !important;
+    position: absolute;
+    right: 444px;
+    top: 20px;
+}
+.love-section a{
+	font-size: 30px;
+}
+.bucket-section{
+	position: absolute;
+    top: 6px;
+    right: 200px;
+}
+.bucket-section .tt_minicart__text{
+	display: none !important;
+}
+.user-section{
+	position: absolute;
+    right: 123px;
+}
+.language-section{
+    position: absolute;
+    width: 75px !important;
+    right: 100px;
+    top: 20px;
+}
+.pay-section{
+    width: 60px!important;
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    margin: 0 0 0 0px;
+}
+.hidden-phone{
+	display: none;
+}
+@media (max-width: 1440px){
+	.language-section {
+	    position: absolute;
+	    width: 75px !important;
+	    right: 80px;
+	    top: 20px;
+	}
+	.love-section {
+	    width: 20px !important;
+	    position: absolute;
+	    right: 378px;
+	    top: 20px;
+	}
+	.search-section {
+	    width: 18%!important;
+	    position: absolute;
+	    right: 427px;
+	}
+}
+
+/*header*/
+@media (max-width: 1390px){
+	.header-left-section{
+		display: flex;
+		flex-direction: column;
+	}
+	.tt_header-menu{
+		margin: 0!important;
+	}
+	.search-section{
+		width: 30%!important;
+	    position: absolute;
+	    right: 427px;
+	}
+}
+@media (max-width: 768px){
+	.top-logo{
+	    margin: 0px 0 0 30px;
+	}
+}
+@media (max-width: 767px){
+	.search-section{
+		display: none !important;
+	}
+	.love-section{
+		display: none !important;
+	}
+	.bucket-section{
+		position: absolute;
+	    top: 6px;
+	    right: 70px;
+	}
+	.user-section{
+		display: none !important;
+	}
+	.language-section{
+		display: none !important;
+	}
+	.pay-section{
+		display: none !important;
+	}
+	.ty-menu__items {
+	    position: absolute!important;
+	    right: 15px;
+	    border: 1px solid #999;
+	    background: #fff;
+	    border-radius: 1px;
+	    top: 67px;
+	    z-index: 10;
+	}
+	.ty-ment__items .ty-icon-short-list span{
+		display: none!important;
+	}
+	.ty-menu__menu-btn{
+		position: absolute;
+		top: -49px;
+	}
+	.tygh-header .ty-menu__menu-btn, .tygh-header .th_your-account, .tygh-header .th_cart-content {
+	    position: absolute;
+	    top: -54px!important;
+	    right: 2px;
+	    margin: 0;
+	}
+	.ty-menu__item-link span{
+		display: none !important;
+	}
+}
+
+/*body*/
+.tygh-content{
+	padding: 0 200px !important;
+}
+@media (max-width: 1440px){
+	.tygh-content{
+		padding: 0 200px !important;
+	}
+}
+@media (max-width: 768px){
+	.tygh-content{
+		padding: 0!important;
+	}
+}
+/*footer*/
+.tygh-footer .ty-footer-grid{
+    padding: 10px 300px;
+}
+
+.help-order ul{
+    line-height:35px !important;
+}
+.help-order ul li a{
+	font-size: 17px !important;
+	color: #000 !important;
+}
+@media (max-width: 1440px){
+	.tygh-footer .ty-footer-grid{
+	    padding: 10px 0px!important;
+	}
+}
+@media (max-width: 768px){
+	.tygh-footer .ty-footer-grid{
+	    padding: 10px 0px!important;
+	}
+	.ath_container{
+		margin: 0!important;
+		padding: 0!important;
+	}
+}
+
+
+/*slider-1*/
+.slider-1-section{
+	margin-top: 10%;
+}
+
+
+.header-left{
+
+}
+.header-left .th_your-account ul{
+	display: none!important;
+}
+.header-left .th_your-account .ty-btn__secondary {
+    background: rgba(0,0,0,0)!important;
+    color: #000!important;
+}
+.header-left .th_your-account .ty-btn__secondary:hover {
+	background: rgba(0,0,0,0)!important;
+    color: #000!important;	
+}
+.header-left .th_your-account .ty-btn__primary{
+	background: rgba(0,0,0,0)!important;
+    color: #000!important;	
+}
+.header-left .th_your-account .ty-btn__primary:hover {
+	background: rgba(0,0,0,0)!important;
+    color: #000!important;	
+}
+.th_cart-content{
+	padding-top: 9px!important;
+}
+.ty-wysiwyg-content{
+	padding:26px 0 0 0!important;
+}
+.ty-dropdown-box{
+	padding: 27px 0 0 0!important;
+}
+#currencies_81{
+	padding: 29px 0 0 0!important;	
+}
+.th_minicart__icon .th_minicart__title{
+	display: none!important;
+}
+#cart_status_1074{
+	margin-top: -18px!important;
+}
+.th_cart-content{
+	border-right: 1px solid #aaa;
+	height: 55px;
+}

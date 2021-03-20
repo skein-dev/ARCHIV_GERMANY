@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+	    <head>
+        <meta charset="UTF-8">       
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    
+        <title>epiKshare Help - Outlook Add-In/Setup Configuration</title>
+        
+        
+<link rel="stylesheet" href="../res/bootstrap.min.css">
+
+        
+<link rel="stylesheet" href="../res/prism.css">
+
+        
+<link rel="stylesheet" href="../res/skin.css">
+
+        
+<link rel="stylesheet" href="../res/help.css">
+
+
+        
+<script src="../res/jquery-3.3.1.min.js"></script>
+
+        
+<script src="../res/popper.min.js"></script>
+
+
+        
+<script src="../res/bootstrap.min.js"></script>
+
+        
+<script src="../res/prism.js"></script>
+
+    <meta name="generator" content="Hexo 5.1.1"></head>
+
+
+	<body>
+		<div id="header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<a target="_blank" rel="noopener" href="http://www.epikshare.com" class="logo">epiKshare</a>
+			</div>
+		</div>
+	</div>
+</div>
+ 
+<div id="body" class="container-flex" >
+
+<div class="row">
+	<div class="col-md-3">
+		<div id="sidenav">
+
+			<ul class="nav flex-column">
+				
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Authentication-Methods.html" title="">Outlook Add-In/Authentication Methods</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Client-installation-on-Mac-OS.html" title="">Client Mac OS</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E-Mails-are-not-sent.html" title="">FAQ/Emails  not sent</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Encrypted-Sharing-of-Files.html" title="">E2ee/Encrypted Sharing of files</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Guest-User-Manual.html" title="">E2ee/Guest User Manual</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Release-Notes.html" title="">E2ee/Release Notes</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Installation.html" title="">E2ee/Installation</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Security-Tips.html" title="">E2ee/Security Tips</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Share-End-to-End-encrypted-files-via-Microsoft-Outlook-Add-In.html" title="">E2ee/Share With Outlook</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---User-Manual.html" title="">E2ee/User Manual</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2ee-Enteprise-Tools---Client.html" title="">E2ee/Enterprise Tools</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/End-to-End-Encryption-File-Sharing-App-for-ownCloud---E2EE.html" title="">E2ee</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Error-creating-the-share-folder.html" title="">FAQ/Createing Share Folder</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/E2EE---Administration.html" title="">E2ee/Administration</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Download-Files.html" title="">Outlook Add-In/Download Files</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---E2ee-Configuration.html" title="">Outlook Add-In/E2ee Configuration</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Installation.html" title="">Outlook Add-In/Instlalation</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Mail-Templates.html" title="">Outlook Add-In/Mail Templates</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---My-Outlook-Shares.html" title="">Outlook Add-In/My Shares</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Release-Notes.html" title="">Outlook Add-In/Release Notes</a></li>
+			
+				<li class="nav-item  active " ><a class="nav-link" href="../en/Outlook-Add-In---Setup-Configuration.html" title="">Outlook Add-In/Setup Configuration</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-Add-In---Share-Files.html" title="">Outlook Add-In/Share Files</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-add-in-startet-bei-Neustart-nicht.html" title="">Outlook Add-In/FAQ-Outlook Startet Nicht</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/Outlook-crash-by-sending-share.html" title="">Outlook Add-InFAQ Crash</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/epiKshare-Documentation.html" title="">epiKshare</a></li>
+			
+				<li class="nav-item " ><a class="nav-link" href="../en/ownCloud-epiKshare-Outlook-Add-In.html" title="">Outlook Add-In</a></li>
+			
+			</ul>
+</div>
+
+	</div>
+	<div class="col-md-9">
+					<h1>Outlook Add-In/Setup Configuration </h1>
+					
+		<div class="content">
+				<ul>
+<li><a href="#initial-setup">Initial Setup</a></li>
+<li><a href="#license-setup">License Setup</a></li>
+<li><a href="#faq">FAQ</a><ul>
+<li><a href="#i-am-receiving-the-message-%22connection-failed%22">I am receiving the Message “Connection Failed”</a></li>
+</ul>
+</li>
+<li><a href="#share-settings">Share Settings</a></li>
+<li><a href="#template-settings">Template Settings</a></li>
+</ul>
+<h1 id="Initial-Setup"><a href="#Initial-Setup" class="headerlink" title="Initial Setup"></a>Initial Setup</h1><p>![](images/storage/image2020-3-6 15:35:11.png)</p>
+<ul>
+<li><p>Open Setting</p>
+<p>  ![](images/storage/image2020-3-6 15:35:58.png)</p>
+</li>
+</ul>
+<ul>
+<li><p>Click on “Change</p>
+<p>  ![](images/storage/image2020-3-6 15:36:42.png)</p>
+</li>
+</ul>
+<ul>
+<li><p>Enter the address of your ownCloud/epiKshare Server</p>
+</li>
+<li><p>Check “Use proxy” if you use a proxy </p>
+</li>
+<li><p>Check “Trust invalid SSL Certificate” if you use a self signed certificate</p>
+</li>
+<li><p>Click “Next</p>
+<p>  ![](images/storage/image2018-2-8 12:34:47.png)</p>
+</li>
+</ul>
+<ul>
+<li><p>Choose your Authentication</p>
+</li>
+<li><p>Click “Next</p>
+<p>  ![](images/storage/image2018-2-8 12:38:56.png)</p>
+</li>
+</ul>
+<ul>
+<li>Enter your User Name and your Password</li>
+<li>Click “Done”</li>
+<li>After the message “Connection Successful” click “Cancel” and restart your Outlook</li>
+</ul>
+<p>If you use a proxy with username and password, select Proxy -&gt; Custom</p>
+<ul>
+<li>After a successful connection test, your license is being verified and if it fails you will be sent to the License Dialog</li>
+<li>To install a valid license or activate a demo license click OK</li>
+</ul>
+<h1 id="License-Setup"><a href="#License-Setup" class="headerlink" title="License Setup"></a>License Setup</h1><p>![](images/storage/image2020-3-6 15:38:11.png)</p>
+<ul>
+<li>Insert a valid license key or activate a “Demo Key” </li>
+</ul>
+<p>![](images/storage/image2017-10-23 15:37:59.png)</p>
+<ul>
+<li>Request your free 30Days Trial License</li>
+<li>Click “Get Trial License”</li>
+</ul>
+<h1 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h1><h3 id="I-am-receiving-the-Message-“Connection-Failed”"><a href="#I-am-receiving-the-Message-“Connection-Failed”" class="headerlink" title="I am receiving the Message “Connection Failed”"></a>I am receiving the Message “Connection Failed”</h3><p>This means that we cannot connect to the cloud server.</p>
+<ul>
+<li>Check your internet connection (try connecting to the cloud server using your web browser)</li>
+<li>Test your credentials</li>
+<li>Make sure you entered the correct proxy settings</li>
+</ul>
+<p>![](images/storage/image2017-10-23 15:39:53.png)</p>
+<ul>
+<li>When the initial connection was successful you should see the green message “Connection Successful”</li>
+<li>Restart your Microsoft Outlook</li>
+</ul>
+<h1 id="Share-Settings"><a href="#Share-Settings" class="headerlink" title="Share Settings"></a>Share Settings</h1><p>![](images/storage/image2020-3-6 15:39:19.png)</p>
+<ul>
+<li><p>Use Password for shared file/Folder</p>
+<p>  ![](images/storage/image2020-3-6 15:41:31.png)</p>
+<ul>
+<li>Send password via separate email: When you share a file or folder, a separate E-Mail with a Password will be created in the background and sent automatically after creation</li>
+<li>Send password with email:This option will send the file or folders passwort within the same email</li>
+<li>Send password to sender: Send the password to the sender (=you)</li>
+<li>Send password to sender and recipient: Creates 2 E-Mails containing the password. One for the sender (=you) and the recipient</li>
+<li>No automatic Password sending: This Option use a password, but it dosn`t send the password by mail, you will have to manually notify the recipient of the password</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Generate Password: When this option is enabled, a password will be created automatically for a new share</li>
+<li>Shared Until: The Share will be available for this number of days by default</li>
+<li>Delete expired Shares: if enabled, expired shares will be deleted from the owncloud server</li>
+<li>Mail Language: A pre-written text is inserted into the email in the selected language (also used for the password mail)</li>
+<li>Send all attachments as link: If enabled any attachment will be uploaded automatically on send</li>
+</ul>
+<h1 id="Template-Settings"><a href="#Template-Settings" class="headerlink" title="Template Settings"></a>Template Settings</h1><p>![](images/storage/image2020-3-6 15:45:4.png)</p>
+<p>You can adjust all Templates that are used when sending a mail. A preview will be generated to show how the placeholders are used.</p>
+<hr>
+<p>[[category.storage-team]]<br>[[category.confluence]] </p>
+ 
+		</div>
+	</div>
+</div>
+
+</div>
+				<div id="bottom">	
+	<div class="container">
+		<a target="_blank" rel="noopener" href="http://www.epikshare.com" class="logo">epiKshare</a>
+		<center><p class="muted">Copyright by epiKshare. All rights reserved.</p></center>
+	</div>
+</div>
+<div id="footer">	
+	<div class="container">
+		<a target="_blank" rel="noopener" href="https://www.epikshare.com/contact">Contact</a>
+		<a target="_blank" rel="noopener" href="https://shop.epikshare.com/legal-agb.html">Terms and Conditions</a>
+	</div>
+</div>
+
+
+	</body>
+</html>
