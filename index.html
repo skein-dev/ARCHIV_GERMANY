@@ -10,6 +10,7 @@
     integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="./css/home.css">
+  <link rel="stylesheet" type="text/css" href="./css/animate.min.css">
 </head>
 <body>
   <!-- <div style="position:absolute; top:0px; left:0px;z-index: -1"><img src="index.png" width="100%" height="100%" /></div> -->
@@ -58,15 +59,15 @@
   </nav>
 
   <div class="container-fluid slider-section">
-    <img src="./images/home/slider1.jpg">
-    <div class="container slider-title">
-      <h1>CON@CT</h1>
-      <h3>Datenerfassung für Versorger</h3>
-      <a href="#">MEHR INFOS</a>
+    <img class="fadeInDown animated" src="./images/home/slider1.jpg">
+    <div class="container slider-title slideInUp">
+      <h1 class="fadeInUp wow animated fadeInUpone" data-wow-delay=".4s">CON@CT</h1>
+      <h3 class="fadeInUp wow animated fadeInUpone" data-wow-delay=".7s">Datenerfassung für Versorger</h3>
+      <a class="fadeInUp wow animated fadeInUpone" data-wow-delay=".7s" href="#">MEHR INFOS</a>
     </div>
   </div>
 
-  <section class="container-fluid about-us-section" id="about-us-section">
+  <section class="instgram fadeInUp wow animated container-fluid about-us-section" id="about-us-section">
     <div class="container">
       <div>
         <div class="polygon polygon-item1-1"></div>
@@ -99,7 +100,7 @@
       <div class="detail">
         Unsere Produkte bieten Schnittstellen zur Verbrauchsabrechnung unserer Partner:
       </div>
-      <div class="container brand-section">
+      <div class="container brand-section fadeInUp wow animated fadeInUpone" data-wow-delay=".5s">
         <div class="row brand-icon">
           <div class="brand-item"><img src="./images/home/icons/brand-icon2.png"></div>
           <div class="brand-item"><img src="./images/home/icons/brand-icon1.png"></div>
@@ -121,7 +122,7 @@
       </div>
     </div>
   </section>
-  <section class="container-fluid map-section" id="map-section">
+  <section class="instgram fadeInUp wow animated container-fluid map-section" id="map-section">
     <div class="container">
       <div class="title">
         Unsere Kunden
@@ -134,21 +135,65 @@
       <div class="row">
         <div class="col-md-4 map-btn">
           <button class="btn-map-red dfr">
-            <span class="map-icon-show"></span>
+            <span class="map-icon-red map-icon-hide"></span>
             <span class="btn-map-text">Stadtweke</span>
           </button>
           <button class="btn-map-blue dfr">
-            <span class="map-icon-hide"></span>
+            <span class="map-icon-blue map-icon-hide"></span>
             <span class="btn-map-text">Wasserwerke</span>
           </button>
         </div>
         <div class="col-md-8 map-img">
-          <img src="images/home/map.png">
+          <div class="location-icon-red icon-show">
+            <embed class="lct_red1" src="./images/home/map/map_marker_red.svg"></embed>
+            <div class="lct_red1 lct"><span class="tooltip-red">Tooltip text</span></div>
+            <embed class="lct_red2" src="./images/home/map/map_marker_red.svg"></embed>
+            <div class="lct_red2 lct"><span class="tooltip-red">Tooltip text</span></div>
+            <embed class="lct_red3" src="./images/home/map/map_marker_red.svg"></embed>
+            <div class="lct_red3 lct"><span class="tooltip-red">Tooltip text</span></div>
+            <embed class="lct_red4" src="./images/home/map/map_marker_red.svg"></embed>
+            <div class="lct_red4 lct"><span class="tooltip-red">Tooltip text</span></div>
+            <embed class="lct_red5" src="./images/home/map/map_marker_red.svg"></embed>
+            <div class="lct_red5 lct"><span class="tooltip-red">Tooltip text</span></div>
+            <embed class="lct_red6" src="./images/home/map/map_marker_red.svg"></embed>
+            <div class="lct_red6 lct"><span class="tooltip-red">Tooltip text</span></div>
+            <embed class="lct_red7" src="./images/home/map/map_marker_red.svg"></embed>
+            <div class="lct_red7 lct"><span class="tooltip-red">Tooltip text</span></div>
+            <embed class="lct_red8" src="./images/home/map/map_marker_red.svg"></embed>
+            <div class="lct_red8 lct"><span class="tooltip-red">Tooltip text</span></div>
+            <embed class="lct_red9" src="./images/home/map/map_marker_red.svg"></embed>
+            <div class="lct_red9 lct"><span class="tooltip-red">Tooltip text</span></div>
+            <embed class="lct_red10" src="./images/home/map/map_marker_red.svg"></embed>
+            <div class="lct_red10 lct"><span class="tooltip-red">Tooltip text</span></div>
+          </div>
+          <div class="location-icon-blue icon-show">
+            <embed class="lct_blue1" src="./images/home/map/map_marker_blue.svg"></embed>
+            <div class="lct_blue1 lct"><span class="tooltip-blue">Tooltip text</span></div>
+            <embed class="lct_blue2" src="./images/home/map/map_marker_blue.svg"></embed>
+            <div class="lct_blue2 lct"><span class="tooltip-blue">Tooltip text</span></div>
+            <embed class="lct_blue3" src="./images/home/map/map_marker_blue.svg"></embed>
+            <div class="lct_blue3 lct"><span class="tooltip-blue">Tooltip text</span></div>
+            <embed class="lct_blue4" src="./images/home/map/map_marker_blue.svg"></embed>
+            <div class="lct_blue4 lct"><span class="tooltip-blue">Tooltip text</span></div>
+            <embed class="lct_blue5" src="./images/home/map/map_marker_blue.svg"></embed>
+            <div class="lct_blue5 lct"><span class="tooltip-blue">Tooltip text</span></div>
+            <embed class="lct_blue6" src="./images/home/map/map_marker_blue.svg"></embed>
+            <div class="lct_blue6 lct"><span class="tooltip-blue">Tooltip text</span></div>
+            <embed class="lct_blue7" src="./images/home/map/map_marker_blue.svg"></embed>
+            <div class="lct_blue7 lct"><span class="tooltip-blue">Tooltip text</span></div>
+            <embed class="lct_blue8" src="./images/home/map/map_marker_blue.svg"></embed>
+            <div class="lct_blue8 lct"><span class="tooltip-blue">Tooltip text</span></div>
+            <embed class="lct_blue9" src="./images/home/map/map_marker_blue.svg"></embed>
+            <div class="lct_blue9 lct"><span class="tooltip-blue">Tooltip text</span></div>
+            <embed class="lct_blue10" src="./images/home/map/map_marker_blue.svg"></embed>
+            <div class="lct_blue10 lct"><span class="tooltip-blue">Tooltip text</span></div>
+          </div>
+          <embed class="" src="images/home/map/germany_map.svg" data-wow-delay=".5s">
         </div>
       </div>
     </div>
   </section>
-  <section class="container-fluid service-section" id="service-section">
+  <section class="instgram fadeInUp wow animated container-fluid service-section" id="service-section">
     <div class="container">
       <div>
         <div class="polygon polygon-item2-1"></div>
@@ -166,7 +211,7 @@
       </div>
       <div class="row service-item-section">
         <div class="col-md-4 service-item">
-          <div class="card">
+          <div class="card instgram fadeInUp wow animated" data-wow-delay=".5s">
             <img src="./images/home/gallery1.png">
             <div class="card-title">Ablesung & Gerätewechsel</div>
             <div class="card-detail">Wir liefern die passende Softwarelösung für Ihre VA und beraten Sie in allen
@@ -175,7 +220,7 @@
           </div>
         </div>
         <div class="col-md-4 service-item">
-          <div class="card">
+          <div class="card instgram fadeInUp wow animated" data-wow-delay=".5s">
             <img src="./images/home/gallery2.png">
             <div class="card-title">Schnittstellen</div>
             <div class="card-detail">Wir sorgen für reibungslosen Abläufe rer IT Systeme indem wie die benötigten
@@ -184,7 +229,7 @@
           </div>
         </div>
         <div class="col-md-4 service-item">
-          <div class="card">
+          <div class="card instgram fadeInUp wow animated" data-wow-delay=".5s">
             <img src="./images/home/gallery3.png">
             <div class="card-title">Webportale & Apps</div>
             <div class="card-detail">Wir realisieren Lösungen nach Ihren Wünschen und Anforderungen insbesondere im
@@ -197,7 +242,7 @@
       </div>
     </div>
   </section>
-  <section class="container-fluid product-section" id="product-section">
+  <section class="instgram fadeInUp wow animated container-fluid product-section" id="product-section">
     <div class="container">
       <div>
         <div class="polygon polygon-item3-1"></div>
@@ -210,7 +255,7 @@
       </div>
       <div class="row product-item-section">
         <div class="col-md-4 product-item">
-          <div class="card">
+          <div class="card instgram fadeInUp wow animated" data-wow-delay=".5s">
             <img src="./images/home/product1.png">
             <div class="card-title">
               Ablesung & Gerätewechsel
@@ -223,7 +268,7 @@
           </div>
         </div>
         <div class="col-md-4 product-item">
-          <div class="card">
+          <div class="card instgram fadeInUp wow animated" data-wow-delay=".5s">
             <img src="./images/home/product2.png">
             <div class="card-title">
               Schnittstellen
@@ -236,7 +281,7 @@
           </div>
         </div>
         <div class="col-md-4 product-item">
-          <div class="card">
+          <div class="card instgram fadeInUp wow animated" data-wow-delay=".5s">
             <img src="./images/home/product3.png">
             <div class="card-title">
               Webportale & Apps
@@ -251,7 +296,7 @@
       </div>
     </div>
   </section>
-  <section class="container-fluid support-section" id="support-section">
+  <section class="instgram fadeInUp wow animated container-fluid support-section" id="support-section">
     <div class="container">
       <div>
         <div class="polygon polygon-item4-1"></div>
@@ -268,18 +313,18 @@
         Selbstverständlich melden wir uns darauf gern auch telefonisch zurück
       </div>
       <div class="row support-btn-section">
-        <button class="support-btn btn-dd">
+        <button class="support-btn btn-dd fadeInUp wow animated fadeInUpone" data-wow-delay=".5s">
           <label class="support-btn-icon-dd"></label>
           <label class="support-btn-text">Support: info@heinrich-pfeiffer.de</label>
         </button>
-        <button class="support-btn btn-em">
+        <button class="support-btn btn-em fadeInUp wow animated fadeInUpone" data-wow-delay=".7s">
           <label class="support-btn-icon-em"></label>
           <label class="support-btn-text">QuickSupport Download</label>
         </button>
       </div>
     </div>
   </section>
-  <section class="container-fluid contact-section" id="contact-section">
+  <section class="instgram fadeInUp wow animated container-fluid contact-section" id="contact-section">
     <div class="container">
       <div class="polygon polygon-item5-1"></div>
       <div class="title">
@@ -382,7 +427,8 @@
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-<!-- <script src="./js/item_slider.js"></script> -->
+<script src="./js/map.js"></script>
 <script src="./js/progress.js"></script>
-
+<script src="./js/smoothscroll.min.js"></script>
+<script src="./js/wow.min.js"></script>
 </html>

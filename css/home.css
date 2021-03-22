@@ -203,7 +203,12 @@ section{
     padding: 20px 100px;
     font-size: 30px;
     margin-top: 20px;
+	transition: .5s;
     background-color: #1d577fcf;
+}
+.slider-title a:hover{
+	background-color: #337bab;
+	transition: .5s;
 }
 .title{
 	font-size: 30px;
@@ -366,6 +371,12 @@ section{
     border: none;
     min-height: 513px;
     text-align: center;
+    transition: .5s;
+}
+.service-item-section .service-item .card:hover{
+	opacity: .8;
+	transition: .5s;
+	background-color: #ddd;
 }
 .service-item-section .service-item .card .card-title{
 	font-size: 18px;
@@ -407,6 +418,12 @@ section{
     border: none;
     min-height: 542px;
     text-align: center;
+    transition: .5s;
+}
+.product-item-section .product-item .card:hover{
+	opacity: .8;
+	background-color: #ddd;
+	transition: .5s;
 }
 .product-item-section .product-item .card .card-title{
 	font-size: 18px;
@@ -829,4 +846,172 @@ section{
 	height: 197px;
 }
 
-
+/*map*/
+.icon-hide{
+	display: none;
+	transition: .5s;
+}
+.icon-show{
+	display: block;
+	transition: .5s;
+}
+.location-icon-red{
+}
+.location-icon-red .lct_red1{
+	position: absolute;
+    top: 510px;
+    left: 191px;
+}
+.location-icon-red .lct_red2{
+	position: absolute;
+	top: 500px;
+	left: 380px;
+}
+.location-icon-red .lct_red3{
+	position: absolute;
+	top: 290px;
+	left: 340px;
+}
+.location-icon-red .lct_red4{
+	position: absolute;
+	top: 320px;
+	left: 240px;
+}
+.location-icon-red .lct_red5{
+	position: absolute;
+	top: 248px;
+    left: 73px;
+}
+.location-icon-red .lct_red6{
+	position: absolute;
+    top: 371px;
+    left: 151px;
+}
+.location-icon-red .lct_red7{
+	position: absolute;
+	top: 218px;
+    left: 259px;
+}
+.location-icon-red .lct_red8{
+	position: absolute;
+	top: 187px;
+    left: 417px;
+}
+.location-icon-red .lct_red9{
+	position: absolute;
+	top: 120px;
+	left: 240px;	
+}
+.location-icon-red .lct_red10{
+	position: absolute;
+	top: 343px;
+    left: 61px;
+}
+.location-icon-blue{
+}
+.location-icon-blue .lct_blue1{
+	position: absolute;
+	top: 280px;
+	left: 120px;
+}
+.location-icon-blue .lct_blue2{
+	position: absolute;
+	top: 240px;
+	left: 350px;
+}
+.location-icon-blue .lct_blue3{
+	position: absolute;
+    top: 125px;
+    left: 299px;
+}
+.location-icon-blue .lct_blue4{
+	position: absolute;
+	top: 196px;
+	left: 200px;
+}
+.location-icon-blue .lct_blue5{
+	position: absolute;
+    top: 220px;
+    left: 126px;
+}
+.location-icon-blue .lct_blue6{
+	position: absolute;
+	top: 85px;
+    left: 183px;
+}
+.location-icon-blue .lct_blue7{
+	position: absolute;
+	top: 440px;
+	left: 250px;
+}
+.location-icon-blue .lct_blue8{
+	position: absolute;
+    top: 495px;
+    left: 110px;
+}
+.location-icon-blue .lct_blue9{
+	position: absolute;
+	top: 396px;
+	left: 290px;
+}
+.location-icon-blue .lct_blue10{
+	position: absolute;
+    top: 320px;
+    left: 206px;
+}
+.tooltip-red {
+  visibility: hidden;
+  width: 130px;
+  background-color: #c2185b;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+.tooltip-blue {
+  visibility: hidden;
+  width: 130px;
+  background-color: #0288d1;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+.tooltip-red::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #c2185b transparent transparent transparent;
+}
+.tooltip-blue::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #0288d1 transparent transparent transparent;
+}
+.lct{
+	width: 15px;
+	height: 25px;
+}
+.lct:hover .tooltip-red {
+  visibility: visible;
+}
+.lct:hover .tooltip-blue {
+  visibility: visible;
+}

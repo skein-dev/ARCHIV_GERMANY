@@ -6,5 +6,4 @@ $(document).ready(function () {
     	var scrollpercent = (document.body.scrollTop + document.documentElement.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
         bar.width(width*scrollpercent);
     });
-
 });
