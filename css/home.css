@@ -848,11 +848,11 @@ section{
 
 /*map*/
 .icon-hide{
-	display: none;
+	opacity: 0;
 	transition: .5s;
 }
 .icon-show{
-	display: block;
+	display: 1;
 	transition: .5s;
 }
 .location-icon-red{
@@ -961,29 +961,31 @@ section{
 }
 .tooltip-red {
   visibility: hidden;
-  width: 130px;
+  width: 160px;
   background-color: #c2185b;
   color: #fff;
+  font-size: 10px;
   text-align: center;
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  bottom: 150%;
+  bottom: 125%;
   left: 50%;
-  margin-left: -60px;
+  margin-left: -80px;
 }
 .tooltip-blue {
   visibility: hidden;
-  width: 130px;
+  width: 160px;
   background-color: #0288d1;
   color: #fff;
+  font-size: 10px;
   text-align: center;
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  bottom: 150%;
+  bottom: 125%;
   left: 50%;
-  margin-left: -60px;
+  margin-left: -80px;
 }
 .tooltip-red::after {
   content: "";
